@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { SubmitButton } from "./Buttons";
+import { SubmitLink } from "./Links";
 const API_PATH = `${window.origin}/api/contact/index.php`;
 
 class Contact extends Component {
@@ -122,7 +122,7 @@ class Contact extends Component {
                             }}
                             value={message}>
                         </textarea>
-                        <SubmitButton onPress={(e) => this.handleFormSubmit(e)} value="Submit" disabled={sent} hidden={error}>Submit</SubmitButton>
+                        <SubmitLink onClick={(e) => this.handleFormSubmit(e)} disabled={sent} hidden={error}>Submit</SubmitLink>
                         <span className="component-contact__form-error component-contact__form-error--bottom" hidden={!error}>
                             Oops! Something went wrong.  Please email me @ <a href="mailto:sfgirvan@yahoo.com">sfgirvan@yahoo.com</a>.
                         </span>

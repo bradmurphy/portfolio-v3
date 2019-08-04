@@ -3,29 +3,21 @@
 
 // Colors
 $red: #E54E6F;
-$navy: #27333D;
-$off-white: #EFEFEF;
+$black: #333;
+$white: #FFF;
 $green: #48A65B;
 $orange: #FBB849;
 
 // Fonts
-$copy-font: 'Montserrat', sans-serif;
-$header-font: 'Merriweather', serif;
-$logo-font: 'Open Sans', sans-serif;
+$font: 'Fira Mono', monospace;
 
 // Components
-@import 'components/buttons';
-@import 'components/contact';
-@import 'components/hero';
-@import 'components/header';
 @import 'components/typography';
-@import 'components/who';
-
 
 body, html {
-	background-color: $navy;
-	color: $off-white;
-	font-family: $copy-font;
+	background-color: $black;
+	color: $white;
+	font-family: $font;
 	font-size: 1.125em;
 	line-height: 1.5em;
 	height: 100%;
@@ -40,19 +32,4 @@ body, html {
 .component-app {
 	height: 100%;
 	width: 100%;
-
-	#wrap	{
-		background-color: $off-white;
-		box-sizing: border-box;
-		padding-top: 25px;
-		position: relative;
-		width: 100%;
-		z-index: 10;
-
-		.padding {
-			padding: 0 20px;
-			margin: 0 auto;
-			max-width: 750px;
-		}
-	}
 }
