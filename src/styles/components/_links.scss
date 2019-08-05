@@ -7,6 +7,11 @@
 	text-decoration: none;
 	transition: all .3s ease-in;
 
+	&__resume-link {
+		color: $black;
+		font-weight: 700;
+	}
+
 	&[hidden] {
 		display: none;
 	}
@@ -21,6 +26,37 @@
 		top: 25px;
 		transition: width 0.3s ease 0s, left 0.3s ease 0s;
 		width: 0;
+	}
+
+	&__resume-page {
+		align-self: center;
+		display: flex;
+		height: auto;
+		margin-top: 25px;
+		width: 75px;
+
+		img {
+			height: auto !important;
+			width: 100% !important;
+		}
+
+		@media screen and (min-width: 1024px) {
+			align-self: flex-start;
+		}
+	}
+
+	&--resume {
+		color: $black;
+
+		&:after {
+			top: 27.5px;
+		}
+
+		@media screen and (min-width: 680px) {
+			&:hover {
+				width: 100%;
+			}
+		}
 	}
 
 	&--black-airplane {

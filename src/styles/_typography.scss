@@ -9,6 +9,23 @@
 			color: $white;
 		}
 
+		&--resume {
+			font-size: .65em;
+			margin: 2px 0;
+
+			strong {
+				font-weight: 700;
+			}
+
+			em {
+				font-style: italic;
+			}
+
+			@media screen and (min-width: 680px) {
+				font-size: .85em;
+			}
+		}
+
 		&--project {
 			margin: 5px 0;
 
@@ -30,6 +47,24 @@
 
 		@media screen and (min-width: 680px) {
 			font-size: 1em;
+		}
+	}
+
+	&__resume-headline {
+		border-bottom: 1px dashed $black;
+		color: $orange;
+		font-size: 1em;
+		font-weight: 700;
+		margin-bottom: 20px;
+		padding-bottom: 15px;
+		text-transform: uppercase;
+
+		@media screen and (min-width: 680px) {
+			font-size: 1.15em;
+		}
+
+		&:nth-child(1n+2) {
+			margin-top: 25px;
 		}
 	}
 

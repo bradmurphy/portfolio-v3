@@ -16,6 +16,7 @@ $font: 'Fira Mono', monospace;
 @import 'components/contact';
 @import 'components/links';
 @import 'components/project';
+@import 'components/resume';
 @import 'components/work';
 @import 'typography';
 
@@ -39,16 +40,28 @@ body, html {
 .component-app {
 	height: 100%;
 	width: 100%;
+}
 
-	#wrap {
-		background-color: $white;
-		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-		box-sizing: border-box;
-		margin: 0 auto;
-		width: 100%;
+#wrap {
+	background-color: $white;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
 
-		@media screen and (min-width: 680px) {
-			max-width: 600px;
-		}
+	@media screen and (min-width: 680px) {
+		max-width: 600px;
+	}
+}
+
+#resume-wrap {
+	background-color: $white;
+	color: $black;
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+
+	@media screen and (min-width: 680px) {
+		min-height: 100%;
 	}
 }

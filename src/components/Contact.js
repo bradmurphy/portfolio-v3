@@ -199,7 +199,7 @@ class Contact extends Component {
                             <a href="https://www.instagram.com/wyck13/" className="component-contact__social-link" target="_blank" rel="noopener noreferrer">
                                 <img src={images.instagram} alt="Instagram" />
                             </a>
-                            <a href="http://bradmurphydev.com/resume.pdf" className="component-contact__social-link component-contact__social-link--resume" target="_blank" rel="noopener noreferrer">
+                            <a href="/resume/" className="component-contact__social-link component-contact__social-link--resume">
                                 <img src={images.resume} alt="Resume" />
                             </a>
                         </div>
