@@ -36,6 +36,11 @@
 	&--submit {
 		padding-bottom: 50px;
 
+		&[disabled] {
+			opacity: .5;
+			pointer-events: none;
+		}
+
 		&:after {
 			top: 30px;
 		}
