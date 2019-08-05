@@ -20,7 +20,7 @@ $font: 'Fira Mono', monospace;
 @import 'typography';
 
 body, html {
-	background-color: $white;
+	background-color: $black;
 	color: $black;
 	font-family: $font;
 	font-size: 1.125em;
@@ -42,6 +42,7 @@ body, html {
 
 	#wrap {
 		background-color: $white;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 		box-sizing: border-box;
 		margin: 0 auto;
 		width: 100%;

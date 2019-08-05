@@ -35,7 +35,7 @@
 
 	&__title-headline {
 		color: $white;
-		font-size: .9em;
+		font-size: .8em;
 		letter-spacing: 1.15px;
 		line-height: 1.25em;
 		margin-left: 15px;
@@ -47,12 +47,17 @@
 			font-weight: 700;
 		}
 
+		@media screen and (min-width: 340px) {
+			font-size: .9em;
+		}
+
 		@media screen and (min-width: 450px) {
+			font-size: 1.3em;
 			max-width: 100%;
 		}
 
 		@media screen and (min-width: 680px) {
-			font-size: 1.925em;
+			font-size: 2.025em;
 			line-height: 1.25em;
 		}
 	}
@@ -64,6 +69,7 @@
 		margin-bottom: 20px;
 
 		em {
+			color: $orange;
 			font-weight: 700;
 			letter-spacing: .65px;
 			text-transform: uppercase;
