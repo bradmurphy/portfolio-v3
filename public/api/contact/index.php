@@ -10,15 +10,14 @@
 
         // set response code - 200 OK
         http_response_code(200);
-        $subject = "SABRINAGIRVAN.COM | Website Inquiry";
-        $to = "sfgirvan@yahoo.com";
+        $subject = "BRADMURPHYDEV.COM | Website Inquiry";
+        $to = "bm.dev84@gmail.com";
         $from = 'From: ' . $_POST['name'];
-        $email = $_POST['email'];
         $time = date('F j, Y g:i A', time());
         $message = $_POST['message'];
 
         // message formatting
-        $msg = "$from \r\nEmail: $email \r\n$time \r\n\r\nMessage: \r\n$message";
+        $msg = "$from \r\n$time \r\n\r\nMessage: \r\n$message";
 
         // headers
         $headers = 'From: ' . $_POST['email'];;

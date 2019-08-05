@@ -1,0 +1,43 @@
+.component-about {
+	background-color: $black;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding: 0 20px 20px 20px;
+
+	&__header-bar {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		padding: 20px 0;
+
+		img {
+			height: 65px;
+
+			@media screen and (min-width: 680px) {
+				height: 100px;
+			}
+		}
+	}
+
+	&__media-avatar {
+		border-radius: 20px;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		margin-bottom: 25px;
+		width: 100%;
+		-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		-moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		-ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		-o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	}
+
+	&__ba-logo {
+		display: block;
+		margin: 50px auto;
+		width: 115px;
+
+		img {
+			width: 100%;
+		}
+	}
+}

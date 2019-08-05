@@ -1,0 +1,82 @@
+.typography {
+
+	&__copy {
+		font-size: .9em;
+		line-height: 1.35em;
+		margin-bottom: 20px;
+
+		&--light {
+			color: $white;
+		}
+
+		&--project {
+			margin: 5px 0;
+
+			em {
+				font-style: italic;
+			}
+
+			strong {
+				font-weight: 700;
+				letter-spacing: .5px;
+				text-transform: uppercase;
+			}
+		}
+
+		&--tech {
+			color: $grey;
+			font-style: italic;
+			margin-top: 20px;
+		}
+
+		@media screen and (min-width: 680px) {
+			font-size: 1em;
+		}
+	}
+
+	&__title-headline {
+		color: $white;
+		font-size: .9em;
+		letter-spacing: 1.15px;
+		line-height: 1.25em;
+		margin-left: 15px;
+		max-width: 250px;
+		text-transform: uppercase;
+
+		em {
+			color: $orange;
+			font-weight: 700;
+		}
+
+		@media screen and (min-width: 450px) {
+			max-width: 100%;
+		}
+
+		@media screen and (min-width: 680px) {
+			font-size: 1.925em;
+			line-height: 1.25em;
+		}
+	}
+
+	&__work-headline {
+		color: $black;
+		font-size: 1.5em;
+		line-height: 1.35em;
+		margin-bottom: 20px;
+
+		em {
+			font-weight: 700;
+			letter-spacing: .65px;
+			text-transform: uppercase;
+		}
+
+		&--light {
+			color: $white;
+		}
+
+		@media screen and (min-width: 680px) {
+			font-size: 1.85em;
+			line-height: 1.5em;
+		}
+	}
+}

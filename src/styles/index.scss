@@ -2,26 +2,33 @@
 @import 'reset';
 
 // Colors
-$red: #E54E6F;
-$black: #333;
-$white: #FFF;
-$green: #48A65B;
-$orange: #FBB849;
+$black: #222;
+$grey: #8F8F8F;
+$orange: #F27124;
+$red: #E63C2F;
+$white: #EFEFEF;
 
 // Fonts
 $font: 'Fira Mono', monospace;
 
 // Components
-@import 'components/typography';
+@import 'components/about';
+@import 'components/contact';
+@import 'components/links';
+@import 'components/project';
+@import 'components/work';
+@import 'typography';
 
 body, html {
 	background-color: $black;
-	color: $white;
+	color: $black;
 	font-family: $font;
 	font-size: 1.125em;
 	line-height: 1.5em;
 	height: 100%;
 	width: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 
 	#root {
 		height: 100%;
@@ -32,4 +39,15 @@ body, html {
 .component-app {
 	height: 100%;
 	width: 100%;
+
+	#wrap {
+		background-color: $white;
+		box-sizing: border-box;
+		margin: 0 auto;
+		width: 100%;
+
+		@media screen and (min-width: 680px) {
+			max-width: 600px;
+		}
+	}
 }
