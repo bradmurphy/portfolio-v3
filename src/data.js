@@ -12,6 +12,7 @@ import logoHook from './images/logo-hook.png';
 import logoKefi from './images/logo-kefi.png';
 import logoSG from './images/logo-sg.png';
 import logoYouTube from './images/logo-youtube.png';
+import resume from './images/resume.png';
 
 const images = {
     avatar,
@@ -27,7 +28,8 @@ const images = {
     logoHook,
     logoKefi,
     logoSG,
-    logoYouTube
+    logoYouTube,
+    resume
 };
 
 const data = [
