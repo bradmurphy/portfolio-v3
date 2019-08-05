@@ -35,7 +35,7 @@ const images = {
 const data = [
     {
         logo: logoSG,
-        width: 200,
+        width: 225,
         headline: 'Sabrina Girvan',
         type: 'Website',
         url: 'http://sabrinagirvan.com',
@@ -53,7 +53,7 @@ const data = [
     },
     {
         logo: logoKefi,
-        width: 85,
+        width: 100,
         headline: 'Kefi',
         type: 'Website/Apps/API',
         url: 'https://playkefi.com',
@@ -76,7 +76,7 @@ const data = [
     },
     {
         logo: logoGoogle,
-        width: 124,
+        width: 135,
         headline: 'Google News',
         type: 'Landing Page',
         url: 'https://news.google.com/about/',
@@ -90,7 +90,7 @@ const data = [
     },
     {
         logo: logoYouTube,
-        width: 185,
+        width: 175,
         headline: 'Rewind 2017',
         type: 'Website',
         url: 'https://rewind2017.withyoutube.com',
@@ -126,7 +126,7 @@ const data = [
     },
     {
         logo: logoYouTube,
-        width: 185,
+        width: 175,
         headline: 'Rewind 2016',
         type: 'Website',
         url: 'https://rewind2016.withyoutube.com/',
