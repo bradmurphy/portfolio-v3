@@ -13,6 +13,11 @@
 			font-size: .65em;
 			margin: 2px 0;
 
+			a {
+				color: $black;
+				font-weight: 700;
+			}
+
 			strong {
 				font-weight: 700;
 			}
@@ -82,8 +87,8 @@
 			font-weight: 700;
 		}
 
-		@media screen and (min-width: 340px) {
-			font-size: .9em;
+		@media screen and (min-width: 360px) {
+			font-size: 1em;
 		}
 
 		@media screen and (min-width: 450px) {
