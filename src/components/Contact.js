@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { SubmitLink } from "./Links";
+import { ResumeLink, SubmitLink } from "./Links";
 import { images } from "../data";
 const API_PATH = `${window.origin}/api/contact/index.php`;
 
@@ -187,6 +187,9 @@ class Contact extends Component {
                             </svg>
                         </a>
                         <div className="component-contact__signature-social-block">
+                            <a href="https://www.instagram.com/wyck13/" className="component-contact__social-link" target="_blank" rel="noopener noreferrer">
+                                <img src={images.instagram} alt="Instagram" />
+                            </a>
                             <a href="https://codepen.io/bradmurphy" className="component-contact__social-link component-contact__social-link--codepen" target="_blank" rel="noopener noreferrer">
                                 <img src={images.codepen} alt="Codepen" />
                             </a>
@@ -196,13 +199,8 @@ class Contact extends Component {
                             <a href="https://www.linkedin.com/in/bmdev/" className="component-contact__social-link" target="_blank" rel="noopener noreferrer">
                                 <img src={images.linkedIn} alt="LinkedIn" />
                             </a>
-                            <a href="https://www.instagram.com/wyck13/" className="component-contact__social-link" target="_blank" rel="noopener noreferrer">
-                                <img src={images.instagram} alt="Instagram" />
-                            </a>
-                            <a href="/resume/" className="component-contact__social-link component-contact__social-link--resume">
-                                <img src={images.resume} alt="Resume" />
-                            </a>
                         </div>
+                        <ResumeLink href="/resume/">View Resume</ResumeLink>
                     </div>
                     <span className="component-contact__form-thankyou" hidden={!sent}>
                         Thankyou for contacting me, I'll get back to you as soon as possible!

@@ -20,7 +20,7 @@ class Resume extends Component {
                         <a href="mailto:bm.dev84@gmail.com?&amp;subject=BRADMURPHYDEV.COM%20|%20Website%20Inquiry" className="component-link__resume-link typography__copy typography__copy--resume">bm.dev84@gmail.com</a>
                         <span className="typography__copy typography__copy--resume">Woodstock, GA 30188</span>
                         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="component-link__resume-page">
-                            <img src={images.resume} alt="Resume" />
+                            <img src={images.download} alt="Download Resume" />
                         </a>
                     </div>
                     <div className="component-resume__info-block">

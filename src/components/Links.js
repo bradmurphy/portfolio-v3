@@ -28,6 +28,13 @@ class BaseLink extends Component {
                     </span>
                 );
                 break;
+            case 'resume':
+                linkContent = (
+                    <a href={href} className="component-link component-link--resume-link">
+                        {children}
+                    </a>
+                );
+                break;
             default:
                 linkContent = (
                     <a href={href} target={target} rel="noopener noreferrer" className="component-link">
@@ -56,6 +63,10 @@ export const BlackAirplaneLink = (props) => {
 
 export const Link = (props) => {
     return <BaseLink {...props} />
+};
+
+export const ResumeLink = (props) => {
+    return <BaseLink {...props} mode="resume" />
 };
 
 export const SubmitLink = (props) => {

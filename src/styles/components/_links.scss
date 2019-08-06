@@ -32,8 +32,8 @@
 		align-self: center;
 		display: flex;
 		height: auto;
-		margin-top: 25px;
-		width: 50px;
+		margin: 25px 0 10px 0;
+		width: 35px;
 
 		img {
 			height: auto !important;
@@ -41,7 +41,7 @@
 		}
 
 		@media screen and (min-width: 680px) {
-			width: 75px;
+			width: 50px;
 		}
 
 		@media screen and (min-width: 1024px) {
@@ -70,6 +70,15 @@
 			&:after {
 				background-color: $red;
 			}
+		}
+	}
+
+	&--resume-link {
+		padding-bottom: 50px;
+		text-transform: uppercase;
+
+		&:after {
+			top: 30px;
 		}
 	}
 

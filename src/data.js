@@ -2,6 +2,7 @@ import avatar from './images/avatar.jpg';
 import back from './images/back.png';
 import badge from './images/badge.png';
 import codepen from './images/codepen.png';
+import download from './images/download.png';
 import github from './images/github.png';
 import instagram from './images/instagram.png';
 import linkedIn from './images/linkedin.png';
@@ -13,13 +14,13 @@ import logoHook from './images/logo-hook.png';
 import logoKefi from './images/logo-kefi.png';
 import logoSG from './images/logo-sg.png';
 import logoYouTube from './images/logo-youtube.png';
-import resume from './images/resume.png';
 
 const images = {
     avatar,
     back,
     badge,
     codepen,
+    download,
     github,
     instagram,
     linkedIn,
@@ -30,8 +31,7 @@ const images = {
     logoHook,
     logoKefi,
     logoSG,
-    logoYouTube,
-    resume
+    logoYouTube
 };
 
 const data = [
