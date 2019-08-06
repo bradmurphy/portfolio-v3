@@ -32,7 +32,8 @@ class Resume extends Component {
                         <h1 className="typography__resume-headline">Experience</h1>
                         <div className="component-resume__job-block">
                             <p className="typography__copy typography__copy--resume"><strong>Senior Developer</strong></p>
-                            <p className="typography__copy typography__copy--resume"><strong>Black Airplane</strong> (<a href="http://blackairplane.com" target="_blank" rel="noopener noreferrer">blackairplane.com</a>) <em>2018 - Present</em></p>
+                            <p className="typography__copy typography__copy--resume">Black Airplane (<a href="http://blackairplane.com" target="_blank" rel="noopener noreferrer">blackairplane.com</a>)</p>
+                            <p className="typography__copy typography__copy--resume"><em>2018 - Present</em></p>
                             <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> The Weather Channel, Big Nerd Ranch, Coca-Cola, SeatGeek</p>
                             <ul className="component-resume__skills-list">
                                 <li className="typography__copy typography__copy--resume">
@@ -62,7 +63,8 @@ class Resume extends Component {
                         </div>
                         <div className="component-resume__job-block">
                             <p className="typography__copy typography__copy--resume"><strong>Instructor</strong></p>
-                            <p className="typography__copy typography__copy--resume"><strong>Creative Circus</strong> (<a href="http://creativecircus.edu" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>) <em>2018 - Present</em></p>
+                            <p className="typography__copy typography__copy--resume">Creative Circus (<a href="http://creativecircus.edu" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
+                            <p className="typography__copy typography__copy--resume"><em>2018 - Present</em></p>
                             <ul className="component-resume__skills-list">
                                 <li className="typography__copy typography__copy--resume">
                                     Teach incoming students an assortment of subjects including: ReactJS, Web
@@ -78,7 +80,8 @@ class Resume extends Component {
                         </div>
                         <div className="component-resume__job-block">
                             <p className="typography__copy typography__copy--resume"><strong>Interface Engineer</strong></p>
-                            <p className="typography__copy typography__copy--resume"><strong>Hook Studios</strong> (<a href="http://byhook.com" target="_blank" rel="noopener noreferrer">byhook.com</a>) <em>2015 - 2018</em></p>
+                            <p className="typography__copy typography__copy--resume">Hook Studios (<a href="http://byhook.com" target="_blank" rel="noopener noreferrer">byhook.com</a>)</p>
+                            <p className="typography__copy typography__copy--resume"><em>2015 - 2018</em></p>
                             <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> Google, YouTube, Slack, Dropbox</p>
                             <ul className="component-resume__skills-list">
                                 <li className="typography__copy typography__copy--resume">
@@ -104,9 +107,10 @@ class Resume extends Component {
                                 </li>
                             </ul>
                         </div>
-                        <div className="component-resume__job-block">
+                        <div className="component-resume__job-block component-resume__job-block--no-margin">
                             <p className="typography__copy typography__copy--resume"><strong>Front End Developer</strong></p>
-                            <p className="typography__copy typography__copy--resume"><strong>Artifact Design</strong> (<a href="http://artifactdesign.com" target="_blank" rel="noopener noreferrer">artifactdesign.com</a>) <em>2014 - 2015</em></p>
+                            <p className="typography__copy typography__copy--resume">Artifact Design (<a href="http://artifactdesign.com" target="_blank" rel="noopener noreferrer">artifactdesign.com</a>)</p>
+                            <p className="typography__copy typography__copy--resume"><em>2014 - 2015</em></p>
                             <ul className="component-resume__skills-list">
                                 <li className="typography__copy typography__copy--resume">
                                     Worked with a team of 5 people to both wireframe and develop responsive
@@ -118,9 +122,10 @@ class Resume extends Component {
                             </ul>
                         </div>
                         <h1 className="typography__resume-headline">Education</h1>
-                        <div className="component-resume__job-block">
-                            <p className="typography__copy typography__copy--resume"><strong>The Creative Circus</strong> - Interactive Development</p>
-                            <p className="typography__copy typography__copy--resume">(<a href="http://creativecircus.edu" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>) | <em>June 2013 - December 2014</em></p>
+                        <div className="component-resume__job-block component-resume__job-block--no-margin">
+                            <p className="typography__copy typography__copy--resume"><strong>The Creative Circus</strong> (<a href="http://creativecircus.edu" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
+                            <p className="typography__copy typography__copy--resume">Interactive Development</p>
+                            <p className="typography__copy typography__copy--resume"><em>2013 - 2015</em></p>
                             <ul className="component-resume__skills-list">
                                 <li className="typography__copy typography__copy--resume">
                                     <strong>Courses Include:</strong> Programming, Web Development, Interactive Design, Strategy, PHP,
