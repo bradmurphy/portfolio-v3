@@ -34,7 +34,7 @@ class Resume extends Component {
                             <p className="typography__copy typography__copy--resume"><strong>Senior Developer</strong></p>
                             <p className="typography__copy typography__copy--resume">Black Airplane (<a href="http://blackairplane.com" target="_blank" rel="noopener noreferrer">blackairplane.com</a>)</p>
                             <p className="typography__copy typography__copy--resume"><em>2018 - Present</em></p>
-                            <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> The Weather Channel, Big Nerd Ranch, Coca-Cola, SeatGeek</p>
+                            <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> Kefi, The Weather Channel, Big Nerd Ranch, Coca-Cola, SeatGeek</p>
                             <ul className="component-resume__skills-list">
                                 <li className="typography__copy typography__copy--resume">
                                     Build, maintain and deploy interactive websites and applications to creative and

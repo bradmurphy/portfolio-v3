@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e33f8c2-20e9-4e18-98d5-d1702b57fd47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Links.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/resume.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/download.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/components/_links.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
@@ -108,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Resume.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+            <state relative-caret-position="460">
+              <caret line="36" column="117" selection-start-line="36" selection-start-column="117" selection-end-line="36" selection-end-column="117" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -185,8 +179,8 @@
         <option value="$PROJECT_DIR$/src/styles/components/_contact.scss" />
         <option value="$PROJECT_DIR$/src/components/Contact.js" />
         <option value="$PROJECT_DIR$/src/components/Links.js" />
-        <option value="$PROJECT_DIR$/src/components/Resume.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_links.scss" />
+        <option value="$PROJECT_DIR$/src/components/Resume.js" />
       </list>
     </option>
   </component>
@@ -311,12 +305,12 @@
       <workItem from="1564881053031" duration="31058000" />
       <workItem from="1564981476094" duration="11569000" />
       <workItem from="1565059730014" duration="4828000" />
-      <workItem from="1565110474268" duration="905000" />
+      <workItem from="1565110474268" duration="1151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111678000" />
+    <option name="totallyTimeSpent" value="111924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1681" y="-367" width="3439" height="1174" extended-state="0" />
@@ -601,20 +595,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/_links.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="36" column="117" selection-start-line="36" selection-start-column="117" selection-end-line="36" selection-end-column="117" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
