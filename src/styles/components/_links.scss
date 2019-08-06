@@ -33,11 +33,15 @@
 		display: flex;
 		height: auto;
 		margin-top: 25px;
-		width: 75px;
+		width: 50px;
 
 		img {
 			height: auto !important;
 			width: 100% !important;
+		}
+
+		@media screen and (min-width: 680px) {
+			width: 75px;
 		}
 
 		@media screen and (min-width: 1024px) {

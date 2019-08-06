@@ -7,7 +7,10 @@ class Resume extends Component {
             <section id="resume-wrap">
                 <div className="component-resume">
                     <div className="component-resume__profile-block">
-                        <a href="/">
+                        <a href="/" className="component-resume__back-link">
+                            <img src={images.back} alt="Back" />
+                        </a>
+                        <a href="/" className="component-resume__profile-block-logo">
                             <img src={images.logo} alt="Brad Murphy" />
                         </a>
                         <span className="typography__copy typography__copy--resume">Brad Murphy</span>

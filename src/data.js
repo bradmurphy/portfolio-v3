@@ -1,4 +1,5 @@
 import avatar from './images/avatar.jpg';
+import back from './images/back.png';
 import badge from './images/badge.png';
 import codepen from './images/codepen.png';
 import github from './images/github.png';
@@ -16,6 +17,7 @@ import resume from './images/resume.png';
 
 const images = {
     avatar,
+    back,
     badge,
     codepen,
     github,

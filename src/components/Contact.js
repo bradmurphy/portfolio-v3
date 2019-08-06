@@ -79,7 +79,7 @@ class Contact extends Component {
 
         return (
             <section className="component-contact">
-                <h2 className="typography__work-headline typography__work-headline--light">{`//`} <em>Contact</em></h2>
+                <h2 className="typography__work-headline typography__work-headline--light">{`//`} <strong>Contact</strong></h2>
                     <div className="component-contact__signature">
                         <span className="component-contact__signature-reach-out">Reach out anytime for coffee or conversation.</span>
                         <a href="mailto:bm.dev84@gmail.com?&amp;subject=BRADMURPHYDEV.COM%20|%20Website%20Inquiry" className="component-contact__signature-image" target="_blank" rel="noopener noreferrer">
