@@ -4,10 +4,12 @@ import Project from "./Project";
 
 class Work extends Component {
     render() {
+        const projects = data.projects;
+
         return (
             <section className="component-work">
                 <h2 className="typography__work-headline">{`//`} <strong>Work</strong></h2>
-                {data.projects.map((project, key) => (
+                {projects.map((project, key) => (
                     <Project
                         date={project.date}
                         headline={project.headline}
