@@ -14,14 +14,10 @@ class Home extends Component {
             <section id="wrap">
                 <About />
                 <Work />
-                <Contact link={link}/>
+                <Contact />
             </section>
         );
     }
-}
-
-Home.propTypes = {
-    link: PropTypes.func,
 };
 
 export default Home;
