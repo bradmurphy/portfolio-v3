@@ -202,7 +202,7 @@ const data = {
             link: '/resume/',
             text: 'View Resume'
         },
-        thankyou: 'Thankyou for contacting me, I\'ll get back to you as soon as possible!'
+        thankYou: 'Thankyou for contacting me, I\'ll get back to you as soon as possible!'
     }
 };
 

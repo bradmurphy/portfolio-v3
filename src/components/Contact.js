@@ -203,7 +203,7 @@ class Contact extends Component {
                         <ResumeLink href={contact.resume.link}>{contact.resume.text}</ResumeLink>
                     </div>
                     <span className="component-contact__form-thankyou" hidden={!sent}>
-                        {contact.thankyou}
+                        {contact.thankYou}
                     </span>
                     <form action="#" className="component-contact__form-wrapper" hidden={sent}>
                         <input type="text" name="name" placeholder="Name"
