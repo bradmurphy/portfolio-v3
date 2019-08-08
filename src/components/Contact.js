@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { ResumeLink, SubmitLink } from "./Links";
-import { images } from "../data";
+import { data } from "../data";
 const API_PATH = `${window.origin}/api/contact/index.php`;
 
 class Contact extends Component {
@@ -81,8 +81,8 @@ class Contact extends Component {
             <section className="component-contact">
                 <h2 className="typography__work-headline typography__work-headline--light">{`//`} <strong>Contact</strong></h2>
                     <div className="component-contact__signature">
-                        <span className="component-contact__signature-reach-out">Reach out anytime for coffee or conversation.</span>
-                        <a href="mailto:bm.dev84@gmail.com?&amp;subject=BRADMURPHYDEV.COM%20|%20Website%20Inquiry" className="component-contact__signature-image" target="_blank" rel="noopener noreferrer">
+                        <span className="component-contact__signature-reach-out">{data.contact.reachOut}</span>
+                        <a href={data.contact.email.link} className="component-contact__signature-image" target="_blank" rel="noopener noreferrer">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                  x="0px" y="0px" width="400px"
                                  viewBox="0 0 612 242.986" enableBackground="new 0 0 612 242.986">
@@ -187,23 +187,21 @@ class Contact extends Component {
                             </svg>
                         </a>
                         <div className="component-contact__signature-social-block">
-                            <a href="https://www.instagram.com/wyck13/" className="component-contact__social-link" target="_blank" rel="noopener noreferrer">
-                                <img src={images.instagram} alt="Instagram" />
-                            </a>
-                            <a href="https://codepen.io/bradmurphy" className="component-contact__social-link component-contact__social-link--codepen" target="_blank" rel="noopener noreferrer">
-                                <img src={images.codepen} alt="Codepen" />
-                            </a>
-                            <a href="https://github.com/bradmurphy" className="component-contact__social-link" target="_blank" rel="noopener noreferrer">
-                                <img src={images.github} alt="GitHub" />
-                            </a>
-                            <a href="https://www.linkedin.com/in/bmdev/" className="component-contact__social-link" target="_blank" rel="noopener noreferrer">
-                                <img src={images.linkedIn} alt="LinkedIn" />
-                            </a>
+
+                            {data.contact.social.map((el) => {
+                                const style = el.alt !== 'Codepen' ? 'component-contact__social-link' :  'component-contact__social-link component-contact__social-link--codepen';
+
+                                return (
+                                    <a href={el.link} className={style} target="_blank" rel="noopener noreferrer">
+                                        <img src={el.logo} alt={el.alt} />
+                                    </a>
+                                );
+                            })}
                         </div>
-                        <ResumeLink href="/resume/">View Resume</ResumeLink>
+                        <ResumeLink href={data.contact.resume.link}>{data.contact.resume.text}</ResumeLink>
                     </div>
                     <span className="component-contact__form-thankyou" hidden={!sent}>
-                        Thankyou for contacting me, I'll get back to you as soon as possible!
+                        {data.contact.thankyou}
                     </span>
                     <form action="#" className="component-contact__form-wrapper" hidden={sent}>
                         <input type="text" name="name" placeholder="Name"
@@ -233,21 +231,21 @@ class Contact extends Component {
                            }}
                         />
                         <textarea name="message" placeholder="Have an idea?  Let's talk."
-                              className={`${messageErrorStyle} component-contact__form-input--text-area`}
-                              onChange={(e) => {
-                                this.setState({
-                                    message: e.target.value,
-                                    inputErrors: {
-                                        ...inputErrors,
-                                        message: this.validate(e.target.value, 'message')
-                                    }
-                                })
-                            }}
-                            value={message}>
+                          className={`${messageErrorStyle} component-contact__form-input--text-area`}
+                          onChange={(e) => {
+                            this.setState({
+                                message: e.target.value,
+                                inputErrors: {
+                                    ...inputErrors,
+                                    message: this.validate(e.target.value, 'message')
+                                }
+                            })
+                          }}
+                          value={message}>
                         </textarea>
                         <SubmitLink onClick={(e) => this.handleFormSubmit(e)} disabled={sent} hidden={error}>Submit</SubmitLink>
                         <span className="component-contact__form-error component-contact__form-error--bottom" hidden={!error}>
-                            Oops! Something went wrong.  Please email me @ <a href="mailto:bm.dev84@gmail.com?&amp;subject=BRADMURPHYDEV.COM%20|%20Website%20Inquiry">bm.dev84@gmail.com</a>.
+                            Oops! Something went wrong.  Please email me @ <a href={data.contact.email.link}>{data.contact.email.address}</a>.
                         </span>
                     </form>
             </section>

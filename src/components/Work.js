@@ -7,7 +7,7 @@ class Work extends Component {
         return (
             <section className="component-work">
                 <h2 className="typography__work-headline">{`//`} <strong>Work</strong></h2>
-                {data.map((project, key) => (
+                {data.projects.map((project, key) => (
                     <Project
                         date={project.date}
                         headline={project.headline}

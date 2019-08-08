@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
-import { images } from '../data';
+import { data } from '../data';
 import { BlackAirplaneLink } from "./Links";
 
 class About extends Component {
     render() {
+        const about = data.about;
+
         return (
             <section className="component-about">
                 <div className="component-about__header-bar">
-                    <img src={images.logo} alt="Brad Murphy Logo" />
-                    <h1 className="typography__title-headline">Brad Murphy<br/> <em>Interface Engineer</em></h1>
+                    <img src={about.logo.src} alt={about.logo.alt} />
+                    <h1 className="typography__title-headline">{about.name}<br/> <em>{about.title}</em></h1>
                 </div>
-                <img src={images.avatar} className="component-about__media-avatar" alt="Brad Murphy" />
+                <img src={about.avatar} className="component-about__media-avatar" alt="Brad Murphy" />
                 <p className="typography__copy typography__copy--light">
                     I always find writing about myself to be a rather difficult task. However -- this is my portfolio, so I suppose
                     I should say a few things.
                 </p>
                 <a href="https://blackairplane.com/" target="_blank" rel="noopener noreferrer" className="component-about__ba-logo">
-                    <img src={images.logoBA} alt="Brad Murphy" />
+                    <img src={about.ba} alt="Brad Murphy" />
                 </a>
                 <p className="typography__copy typography__copy--light">
                     I currently reside in Woodstock, Georgia and work for <BlackAirplaneLink href="http://www.blackairplane.com" target="_blank">Black Airplane</BlackAirplaneLink> with an amazing group of extremely talented people.
