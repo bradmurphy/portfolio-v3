@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 // Components
 import About from './About';
@@ -8,8 +7,6 @@ import Work from './Work';
 
 class Home extends Component {
     render() {
-        const { link } = this.props;
-
         return (
             <section id="wrap">
                 <About />
