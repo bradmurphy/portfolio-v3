@@ -5,10 +5,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Resume from './Resume';
 
-export const RouteLink = function({label, to}) {
-    return <Link to={to}>{ label }</Link>
-};
-
 const HomeScreen = function() {
     return <Home />;
 };

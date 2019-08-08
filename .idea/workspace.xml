@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e33f8c2-20e9-4e18-98d5-d1702b57fd47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Routes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3076">
-              <caret line="205" column="42" lean-forward="true" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
+              <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -49,6 +49,18 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#93#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +105,6 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/styles/components/_work.scss" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Routes.js" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/_about.scss" />
         <option value="$PROJECT_DIR$/src/components/Project.js" />
@@ -109,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/data.js" />
         <option value="$PROJECT_DIR$/src/components/Contact.js" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/Routes.js" />
       </list>
     </option>
   </component>
@@ -234,18 +246,18 @@
       <workItem from="1564981476094" duration="11569000" />
       <workItem from="1565059730014" duration="4828000" />
       <workItem from="1565110474268" duration="1271000" />
-      <workItem from="1565235438651" duration="2963000" />
+      <workItem from="1565235438651" duration="3060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115007000" />
+    <option name="totallyTimeSpent" value="115104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="958" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1990232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1990232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -260,7 +272,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993895" weight="0.32867134" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.3140496" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.497558" visible="true" weight="0.24595843" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.497558" visible="true" weight="0.24595843" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -368,17 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#109#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,7 +515,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3076">
-          <caret line="205" column="42" lean-forward="true" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
+          <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -538,6 +539,16 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#93#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
