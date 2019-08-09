@@ -53,9 +53,7 @@ const data = {
             type: 'Website',
             url: 'http://sabrinagirvan.com',
             date: 'August 2019',
-            copy: `Sabrina's website was one of the first websites I made coming out of school.  This year I
-         went back to give it a spring cleaning, rebuilding it completely with ReactJS and giving
-          it a fresh design make-over.`,
+            copy: `Inspiring people to live healthy & happy every day.`,
             technology: [
                 'HTML5',
                 'CSS3',
@@ -71,10 +69,7 @@ const data = {
             type: 'Website/Apps/API',
             url: 'https://playkefi.com',
             date: 'July 2019',
-            copy: `Kefi is a new interactive playspace premiering in the great city of Atlanta.  Our team and myself have been tasked
-         with building a fully integrated API, Website and Ecommerce solutions.  Along with this,
-          I've built two iOS Applications for point of sales (POS) and new customer sign ups (Kiosk)
-           for Kefi's physical locations.`,
+            copy: `Creating awesome environments for kids, through the power of wonder and imagination, that parents love too.`,
             technology: [
                 'HTML5',
                 'CSS3',
@@ -91,7 +86,7 @@ const data = {
             logo: logoGoogle,
             width: 135,
             headline: 'Google News',
-            type: 'Landing Page',
+            type: 'Website',
             url: 'https://news.google.com/about/',
             date: 'July 2018',
             copy: `Google News organizes what’s happening to help you learn more about the stories that matter to you and the world.`,
@@ -160,7 +155,7 @@ const data = {
             type: 'Web App',
             url: 'http://hookerz.github.io/stitches',
             date: 'March 2016',
-            copy: `A Web App for quickly creating sprite sheets.  Creates both an image and style sheet as per specifications.`,
+            copy: `A Web App for quickly creating sprite sheets.`,
             technology: [
                 'HTML5',
                 'CSS3',
