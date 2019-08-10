@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import PropTypes from 'prop-types';
+
+// components
 import { ResumeLink, SubmitLink } from "./Links";
-import { data } from "../data";
+
+// api path
 const API_PATH = `${window.origin}/api/contact/index.php`;
 
 class Contact extends Component {
@@ -70,8 +74,7 @@ class Contact extends Component {
 
     render() {
         const { name, email, message, sent, error, inputErrors } = this.state;
-
-        const contact = data.contact;
+        const { data } = this.props;
 
         const errStyle = 'component-contact__form-input component-contact__form-input--error';
 
@@ -83,8 +86,8 @@ class Contact extends Component {
             <section className="component-contact">
                 <h2 className="typography__work-headline typography__work-headline--light">{`//`} <strong>Contact</strong></h2>
                     <div className="component-contact__signature">
-                        <span className="component-contact__signature-reach-out">{contact.reachOut}</span>
-                        <a href={contact.email.link} className="component-contact__signature-image" target="_blank" rel="noopener noreferrer">
+                        <span className="component-contact__signature-reach-out">{data.reachOut}</span>
+                        <a href={data.email.link} className="component-contact__signature-image" target="_blank" rel="noopener noreferrer">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                  x="0px" y="0px" width="400px"
                                  viewBox="0 0 612 242.986" enableBackground="new 0 0 612 242.986">
@@ -190,7 +193,7 @@ class Contact extends Component {
                         </a>
                         <div className="component-contact__signature-social-block">
 
-                            {contact.social.map((el) => {
+                            {data.social.map((el) => {
                                 const style = el.alt !== 'Codepen' ? 'component-contact__social-link' :  'component-contact__social-link component-contact__social-link--codepen';
 
                                 return (
@@ -200,10 +203,10 @@ class Contact extends Component {
                                 );
                             })}
                         </div>
-                        <ResumeLink href={contact.resume.link}>{contact.resume.text}</ResumeLink>
+                        <ResumeLink href={data.resume.link}>{data.resume.text}</ResumeLink>
                     </div>
                     <span className="component-contact__form-thankyou" hidden={!sent}>
-                        {contact.thankYou}
+                        {data.thankYou}
                     </span>
                     <form action="#" className="component-contact__form-wrapper" hidden={sent}>
                         <input type="text" name="name" placeholder="Name"
@@ -247,12 +250,16 @@ class Contact extends Component {
                         </textarea>
                         <SubmitLink onClick={(e) => this.handleFormSubmit(e)} disabled={sent} hidden={error}>Submit</SubmitLink>
                         <span className="component-contact__form-error component-contact__form-error--bottom" hidden={!error}>
-                            Oops! Something went wrong.  Please email me @ <a href={contact.email.link}>{contact.email.address}</a>.
+                            Oops! Something went wrong.  Please email me @ <a href={data.email.link} target="__blank" rel="noopener noreferrer">{data.email.address}</a>.
                         </span>
                     </form>
             </section>
         );
     }
+};
+
+Contact.propTypes = {
+    data: PropTypes.object
 };
 
 export default Contact;

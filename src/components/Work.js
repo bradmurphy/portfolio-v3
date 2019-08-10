@@ -1,31 +1,31 @@
-import React, { Component } from 'react';
-import { data } from '../data';
+import React from 'react';
+import PropTypes from 'prop-types';
+
+// components
 import Project from "./Project";
 
-class Work extends Component {
-    render() {
-        const projects = data.projects;
+const Work = (props) => (
+    <section className="component-work">
+        <h2 className="typography__work-headline">{`//`} <strong>Work</strong></h2>
+        {props.projects.map((project, key) => (
+            <Project
+                date={project.date}
+                headline={project.headline}
+                key={key}
+                src={project.logo}
+                tech={project.technology}
+                type={project.type}
+                url={project.url}
+                width={project.width}
+            >
+                { project.copy }
+            </Project>
+        ))}
+    </section>
+);
 
-        return (
-            <section className="component-work">
-                <h2 className="typography__work-headline">{`//`} <strong>Work</strong></h2>
-                {projects.map((project, key) => (
-                    <Project
-                        date={project.date}
-                        headline={project.headline}
-                        key={key}
-                        src={project.logo}
-                        tech={project.technology}
-                        type={project.type}
-                        url={project.url}
-                        width={project.width}
-                    >
-                        { project.copy }
-                    </Project>
-                ))}
-            </section>
-        );
-    }
+Work.propTypes = {
+    projects: PropTypes.array
 };
 
 export default Work;
