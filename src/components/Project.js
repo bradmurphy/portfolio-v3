@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 // components
 import { Link } from "./Links";
 
-const Project = function(props) {
+const Project = (props) => {
     const { children, date, headline, src, tech, type, url, width } = props;
 
     return (

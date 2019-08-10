@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const BaseLink = function(props) {
+const BaseLink = (props) => {
     const { href, children, disabled, hidden, mode, onClick, target } = props;
 
     const disabledStyle = disabled ? {
