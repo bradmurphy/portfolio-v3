@@ -89,8 +89,7 @@ class Contact extends Component {
                         <span className="component-contact__signature-reach-out">{data.reachOut}</span>
                         <a href={data.email.link} className="component-contact__signature-image" target="_blank" rel="noopener noreferrer">
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                 x="0px" y="0px" width="400px"
-                                 viewBox="0 0 612 242.986" enableBackground="new 0 0 612 242.986">
+                                 x="0px" y="0px" width="400px" viewBox="0 0 612 242.986" enableBackground="new 0 0 612 242.986">
                                 <path className="sig" d="M160.187,138.31c-1.859,3.162-3.323,6.086-5.193,8.725c-2.406,3.391-4.928,6.752-7.784,9.762
           c-3.458,3.645-4.958,3.545-9.18,0.268c-1.989,1.969-3.963,4.031-6.051,5.971c-8.676,8.061-18.287,14.82-29.251,19.314
           c-6.183,2.533-12.657,4.59-19.19,5.951c-4.503,0.938-9.358,0.654-14.007,0.291c-4.568-0.355-8.136-5.225-8.07-9.891
@@ -192,7 +191,6 @@ class Contact extends Component {
                             </svg>
                         </a>
                         <div className="component-contact__signature-social-block">
-
                             {data.social.map((el, index) => {
                                 const style = el.alt !== 'Codepen' ? 'component-contact__social-link' :  'component-contact__social-link component-contact__social-link--codepen';
 
