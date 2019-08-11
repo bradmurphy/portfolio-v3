@@ -154,7 +154,7 @@ const data = {
         },
         {
             logo: logoHook,
-            width: 135,
+            width: 140,
             headline: 'Stitches',
             type: 'Web App',
             url: 'http://hookerz.github.io/stitches',

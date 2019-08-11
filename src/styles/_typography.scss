@@ -82,7 +82,7 @@
 		max-width: 250px;
 		text-transform: uppercase;
 
-		em {
+		strong {
 			color: $orange;
 			font-weight: 700;
 		}
@@ -120,7 +120,7 @@
 		}
 
 		@media screen and (min-width: 680px) {
-			font-size: 1.85em;
+			font-size: 1.65em;
 			line-height: 1.5em;
 		}
 	}

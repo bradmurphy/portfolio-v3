@@ -8,7 +8,7 @@ const About = (props) => (
     <section className="component-about">
         <div className="component-about__header-bar">
             <img src={props.data.logo.src} alt={props.data.logo.alt} />
-            <h1 className="typography__title-headline">{props.data.name}<br/> <em>{props.data.title}</em></h1>
+            <h1 className="typography__title-headline">{props.data.name}<br/> <strong>{props.data.title}</strong></h1>
         </div>
         <img src={props.data.avatar} className="component-about__media-avatar" alt={props.data.name} />
         <p className="typography__copy typography__copy--light">

@@ -193,11 +193,11 @@ class Contact extends Component {
                         </a>
                         <div className="component-contact__signature-social-block">
 
-                            {data.social.map((el) => {
+                            {data.social.map((el, index) => {
                                 const style = el.alt !== 'Codepen' ? 'component-contact__social-link' :  'component-contact__social-link component-contact__social-link--codepen';
 
                                 return (
-                                    <a href={el.link} className={style} target="_blank" rel="noopener noreferrer">
+                                    <a href={el.link} className={style} key={index} target="_blank" rel="noopener noreferrer">
                                         <img src={el.logo} alt={el.alt} />
                                     </a>
                                 );
