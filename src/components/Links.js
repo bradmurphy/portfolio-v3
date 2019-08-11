@@ -15,7 +15,7 @@ const BaseLink = (props) => {
     switch(mode) {
         case 'black-airplane':
             linkContent = (
-                <a href={href} target={target} rel="noopener noreferrer" className="component-link component-link--black-airplane">
+                <a href={href} target="_blank" rel="noopener noreferrer" className="component-link component-link--black-airplane">
                     {children}
                 </a>
             );

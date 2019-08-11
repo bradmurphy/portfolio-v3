@@ -37,7 +37,11 @@ const images = {
 const data = {
     about: {
         avatar: avatar,
-        ba: logoBA,
+        ba: {
+            alt: 'Black Airplane',
+            link: 'https://blackairplane.com/',
+            src: logoBA
+        },
         logo: {
             alt: 'Brad Murphy Logo',
             src: logo
@@ -48,7 +52,7 @@ const data = {
     projects: [
         {
             logo: logoSG,
-            width: 225,
+            width: 230,
             headline: 'Sabrina Girvan',
             type: 'Website',
             url: 'http://sabrinagirvan.com',
@@ -64,7 +68,7 @@ const data = {
         },
         {
             logo: logoKefi,
-            width: 100,
+            width: 85,
             headline: 'Kefi',
             type: 'Website/Apps/API',
             url: 'https://playkefi.com',
@@ -168,7 +172,7 @@ const data = {
     contact: {
         reachOut: 'Reach out anytime for coffee or conversation.',
         email: {
-            link: 'mailto:bm.dev84@gmail.com?&amp;subject=BRADMURPHYDEV.COM%20|%20Website%20Inquiry',
+            link: 'mailto:bm.dev84@gmail.com?&subject=BRADMURPHYDEV.COM | Website Inquiry',
             address: 'bm.dev84@gmail.com'
         },
         social: [
@@ -197,7 +201,7 @@ const data = {
             link: '/resume/',
             text: 'View Resume'
         },
-        thankYou: 'Thankyou for contacting me, I\'ll get back to you as soon as possible!'
+        thankYou: `Thankyou for contacting me, I'll get back to you as soon as possible!`
     }
 };
 
