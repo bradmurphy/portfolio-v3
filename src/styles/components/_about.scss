@@ -40,7 +40,11 @@
 	&__ba-logo {
 		display: block;
 		margin: 50px auto;
-		width: 100px;
+		width: 65px;
+
+		@media screen and (min-width: 680px) {
+			width: 100px;
+		}
 
 		img {
 			width: 100%;
