@@ -11,6 +11,7 @@ import logoBA from './images/logo-ba.png';
 import logoBenefix from './images/logo-benefix.png';
 import logoGoogle from './images/logo-google.png';
 import logoHook from './images/logo-hook.png';
+import logoNetflix from './images/logo-netflix.png';
 import logoKefi from './images/logo-kefi.png';
 import logoSG from './images/logo-sg.png';
 import logoYouTube from './images/logo-youtube.png';
@@ -50,6 +51,21 @@ const data = {
         title: 'Interface Engineer'
     },
     projects: [
+        {
+            logo: logoNetflix,
+            width: 185,
+            headline: 'Fuller My House',
+            type: 'Website',
+            url: 'http://fullermyhouse.com',
+            date: 'February 2020',
+            copy: `Create and share your own Fuller House family logo with FullerMyHouse.`,
+            technology: [
+                'HTML5',
+                'CSS3',
+                'JavaScript',
+                'ReactJS'
+            ]
+        },
         {
             logo: logoSG,
             width: 230,
@@ -97,7 +113,8 @@ const data = {
             technology: [
                 'HTML5',
                 'CSS3',
-                'JavaScript'
+                'JavaScript',
+                'AMP'
             ]
         },
         {
@@ -154,7 +171,7 @@ const data = {
         },
         {
             logo: logoHook,
-            width: 140,
+            width: 160,
             headline: 'Stitches',
             type: 'Web App',
             url: 'http://hookerz.github.io/stitches',
