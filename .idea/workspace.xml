@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7e33f8c2-20e9-4e18-98d5-d1702b57fd47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-benefix.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,8 @@
       <workItem from="1575407063139" duration="450000" />
       <workItem from="1584010146512" duration="572000" />
       <workItem from="1584147138525" duration="701000" />
-      <workItem from="1585978882257" duration="4101000" />
+      <workItem from="1585978882257" duration="4163000" />
+      <workItem from="1585984422799" duration="62000" />
     </task>
     <servers />
   </component>
@@ -96,6 +98,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2698" y="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585984454153">
+      <screen x="1680" y="210" width="2560" height="1349" />
+    </state>
+    <state x="2698" y="619" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.210.2560.1349/0.23.1680.1027@1680.210.2560.1349" timestamp="1585984454153" />
     <state x="2629" y="532" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585979763328">
       <screen x="1680" y="210" width="2560" height="1349" />
     </state>

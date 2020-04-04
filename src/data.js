@@ -8,7 +8,6 @@ import instagram from './images/instagram.png';
 import linkedIn from './images/linkedin.png';
 import logo from './images/logo.png';
 import logoBA from './images/logo-ba.png';
-import logoBenefix from './images/logo-benefix.png';
 import logoGoogle from './images/logo-google.png';
 import logoHook from './images/logo-hook.png';
 import logoNetflix from './images/logo-netflix.png';
@@ -27,7 +26,6 @@ const images = {
     linkedIn,
     logo,
     logoBA,
-    logoBenefix,
     logoGoogle,
     logoHook,
     logoKefi,
@@ -133,24 +131,6 @@ const data = {
                 'WebGL',
                 'THREE.js',
                 'GSAP'
-            ]
-        },
-        {
-            logo: logoBenefix,
-            width: 174,
-            headline: 'Benefix',
-            type: 'Website',
-            url: 'https://benefix.us/',
-            date: 'November 2017',
-            copy: `BeneFix is your one-stop-shop for small group benefits, offering 100% accurate and
-         real-time quoting for medical insurance, saving you and your agency both time, money, and more.`,
-            technology: [
-                'HTML5',
-                'CSS3',
-                'JavaScript',
-                'Metalsmith',
-                'Slick',
-                'jQuery'
             ]
         },
         {
