@@ -51,21 +51,21 @@ const data = {
         title: 'Interface Engineer'
     },
     projects: [
-        {
-            logo: logoNetflix,
-            width: 185,
-            headline: 'Fuller My House',
-            type: 'Website',
-            url: 'http://fullermyhouse.com',
-            date: 'February 2020',
-            copy: `Create and share your own Fuller House family logo with FullerMyHouse.`,
-            technology: [
-                'HTML5',
-                'CSS3',
-                'JavaScript',
-                'ReactJS'
-            ]
-        },
+        // {
+        //     logo: logoNetflix,
+        //     width: 185,
+        //     headline: 'Fuller My House',
+        //     type: 'Website',
+        //     url: 'http://fullermyhouse.com',
+        //     date: 'February 2020',
+        //     copy: `Create and share your own Fuller House family logo with FullerMyHouse.`,
+        //     technology: [
+        //         'HTML5',
+        //         'CSS3',
+        //         'JavaScript',
+        //         'ReactJS'
+        //     ]
+        // },
         {
             logo: logoSG,
             width: 230,
@@ -86,7 +86,7 @@ const data = {
             logo: logoKefi,
             width: 85,
             headline: 'Kefi',
-            type: 'Website/Apps/API',
+            type: 'Website, POS App, Kiosk App, Integrated API',
             url: 'https://playkefi.com',
             date: 'July 2019',
             copy: `Creating awesome environments for kids, through the power of wonder and imagination, that parents love too.`,

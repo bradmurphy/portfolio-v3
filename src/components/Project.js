@@ -12,7 +12,8 @@ const Project = (props) => {
             <a href={url} target="_blank" className="component-project__logo" style={{ width: `${width}px` }} rel="noopener noreferrer">
                 <img src={src} alt={headline} />
             </a>
-            <p className="typography__copy typography__copy--project"><strong>Project:</strong> <Link href={url} target="_blank">{ headline }</Link> (<em>{ type }</em>)</p>
+            <p className="typography__copy typography__copy--project"><strong>Project:</strong> <Link href={url} target="_blank">{ headline }</Link></p>
+            <p className="typography__copy typography__copy--project"><strong>Type:</strong> { type }</p>
             <p className="typography__copy typography__copy--project"><strong>Date:</strong> { date }</p>
             <p className="typography__copy typography__copy--project"><strong>Notes:</strong> { children }</p>
             <p className="typography__copy typography__copy--project typography__copy--tech">{ tech.join(', ') }</p>

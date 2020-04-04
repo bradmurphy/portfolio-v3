@@ -23,10 +23,7 @@ const Resume = () => (
             </div>
             <div className="component-resume__info-block">
                 <h1 className="typography__resume-headline">Summary</h1>
-                <p className="typography__copy typography__copy--resume">Driven programmer with an immediate goal to obtain a challenging and rewarding position as
-                    a Front-End Developer to further optimize my skill set. I specialize in creating great user
-                    experiences using the latest technologies available to provide innovative, elegant and
-                    cutting-edge content to the marketing and advertising industry.</p>
+                <p className="typography__copy typography__copy--resume">Driven programmer with an immediate goal to obtain a challenging and rewarding position as a Front-End Developer to further optimize my skill set. I specialize in creating great user experiences using the latest technologies available to provide innovative, elegant and cutting-edge content to the marketing and advertising industry.</p>
                 <h1 className="typography__resume-headline">Experience</h1>
                 <div className="component-resume__job-block">
                     <p className="typography__copy typography__copy--resume"><strong>Senior Developer</strong></p>
@@ -39,30 +36,24 @@ const Resume = () => (
                             client specifications.
                         </li>
                         <li className="typography__copy typography__copy--resume">
-                            Create and maintain build systems, scaffolds and tools used by engineers and
-                            designers every day for faster in-house production.
+                            Establish code standard guidelines, best practices and project workflows.
                         </li>
                         <li className="typography__copy typography__copy--resume">
-                            Help establish code standard guidelines and best practices.
+                            Mentor junior engineers and actively create educational material for team members to showcase new technology and standards.
                         </li>
                         <li className="typography__copy typography__copy--resume">
-                            Help develop learning tools, presentations, documentation and other resources for
-                            onboarding new engineers and general employee education.
+                            Consistently adapt to emerging technologies both on the back and front-end to accommodate a wide variety of clients.
                         </li>
                         <li className="typography__copy typography__copy--resume">
-                            Learn new technologies, absorb documentation quickly and deploy clean, efficient,
-                            bug-free code to the expected standard.
-                        </li>
-                        <li className="typography__copy typography__copy--resume">
-                            <strong>Skills/Technologies Utilized:</strong> AngularJS, Angular, ReactJS, React Native, Vue,
-                            WordPress, NodeJS, PHP, Laravel, JavaScript, HTML5, CSS3
+                            <strong>Skills/Technologies Utilized:</strong> JavaScript, HTML5, CSS3, PHP, NodeJS, Webpack, AngularJS, Angular, ReactJS, React Native, VueJS,
+                            WordPress, Laravel
                         </li>
                     </ul>
                 </div>
                 <div className="component-resume__job-block">
                     <p className="typography__copy typography__copy--resume"><strong>Instructor</strong></p>
                     <p className="typography__copy typography__copy--resume">Creative Circus (<a href="http://creativecircus.edu" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
-                    <p className="typography__copy typography__copy--resume"><em>2018 - Present</em></p>
+                    <p className="typography__copy typography__copy--resume"><em>2018 - 2019</em></p>
                     <ul className="component-resume__skills-list">
                         <li className="typography__copy typography__copy--resume">
                             Teach incoming students an assortment of subjects including: ReactJS, Web

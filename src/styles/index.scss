@@ -2,11 +2,12 @@
 @import 'reset';
 
 // Colors
-$black: #222;
+$black: #0F1217;
 $grey: #8F8F8F;
 $orange: #F27124;
+$navy: #070b1b;
 $red: #E63C2F;
-$white: #EFEFEF;
+$white: #EDF0F9;
 
 // Fonts
 $font: 'Fira Mono', monospace;
@@ -24,8 +25,8 @@ body, html {
 	background-color: $black;
 	color: $black;
 	font-family: $font;
-	font-size: 1.125em;
-	line-height: 1.5em;
+	font-size: 16px;
+	line-height: 24px;
 	height: 100%;
 	width: 100%;
 	-moz-osx-font-smoothing: grayscale;
@@ -44,7 +45,7 @@ body, html {
 
 #wrap {
 	background-color: $white;
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	box-sizing: border-box;
 	margin: 0 auto;
 	width: 100%;

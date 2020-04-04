@@ -1,8 +1,8 @@
 .typography {
 
 	&__copy {
-		font-size: .9em;
-		line-height: 1.35em;
+		font-size: 1rem;
+		line-height: 1.5rem;
 		margin-bottom: 20px;
 
 		&--light {
@@ -10,8 +10,8 @@
 		}
 
 		&--resume {
-			font-size: .65em;
-			margin: 2px 0;
+			font-size: 1rem;
+			margin: 5px 0;
 
 			a {
 				color: $black;
@@ -24,10 +24,6 @@
 
 			em {
 				font-style: italic;
-			}
-
-			@media screen and (min-width: 680px) {
-				font-size: .85em;
 			}
 		}
 
@@ -49,24 +45,20 @@
 			font-style: italic;
 			margin-top: 20px;
 		}
-
-		@media screen and (min-width: 680px) {
-			font-size: 1em;
-		}
 	}
 
 	&__resume-headline {
 		border-bottom: 1px dashed $black;
 		color: $orange;
-		font-size: 1em;
+		font-size: 1.5rem;
 		font-weight: 700;
 		margin-bottom: 20px;
 		padding-bottom: 15px;
 		text-transform: uppercase;
 
-		@media screen and (min-width: 680px) {
-			font-size: 1.15em;
-		}
+		//@media screen and (min-width: 680px) {
+		//	font-size: 1.5em;
+		//}
 
 		&:nth-child(1n+2) {
 			margin-top: 25px;
@@ -75,37 +67,34 @@
 
 	&__title-headline {
 		color: $white;
-		font-size: .8em;
+		font-size: 1rem;
 		letter-spacing: 1.15px;
-		line-height: 1.25em;
+		line-height: 1.5rem;
 		margin-left: 15px;
 		max-width: 250px;
 		text-transform: uppercase;
 
 		strong {
 			color: $orange;
-			font-weight: 700;
+			font-weight: 500;
 		}
 
-		@media screen and (min-width: 360px) {
-			font-size: 1em;
-		}
 
 		@media screen and (min-width: 450px) {
-			font-size: 1.415em;
+			font-size: 1.5rem;
 			max-width: 100%;
 		}
 
 		@media screen and (min-width: 680px) {
-			font-size: 1.9415em;
-			line-height: 1.15em;
+			font-size: 2rem;
+			line-height: 2.5rem;
 		}
 	}
 
 	&__work-headline {
 		color: $black;
-		font-size: 1.5em;
-		line-height: 1.35em;
+		font-size: 1.5rem;
+		line-height: 2rem;
 		margin-bottom: 20px;
 
 		strong {
@@ -120,8 +109,8 @@
 		}
 
 		@media screen and (min-width: 680px) {
-			font-size: 1.65em;
-			line-height: 1.5em;
+			font-size: 2rem;
+			line-height: 2.5rem;
 		}
 	}
 }
