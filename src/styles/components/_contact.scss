@@ -120,8 +120,8 @@
 		border-top: 0;
 		color: $white;
 		font-family: $font;
-		font-size: 1em;
-		line-height: 1.4em;
+		font-size: 1rem;
+		line-height: 1.5rem;
 		outline: 0;
 		margin: 10px 0;
 		padding: 10px 0;
@@ -147,12 +147,6 @@
 			height: 300px;
 			resize: none;
 		}
-
-		@media screen and (min-width: 480px) {
-			font-size: 1.125em;
-			line-height: 1.5em;
-		}
-
 	}
 }
 
@@ -169,15 +163,10 @@ select:-webkit-autofill:focus {
 	border-left: 0;
 	border-right: 0;
 	border-top: 0;
-	font-size: 1em;
-	line-height: 1.4em;
+	font-size: 1rem;
+	line-height: 1.5rem;
 	outline: 0;
 	transition: all .3s ease-in;
 	-webkit-text-fill-color: $white;
 	-webkit-box-shadow: 0 0 0px 1000px $black inset;
-
-	@media screen and (min-width: 480px) {
-		font-size: 1.125em;
-		line-height: 1.5em;
-	}
 }
