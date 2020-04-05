@@ -248,7 +248,7 @@ class Contact extends Component {
                         </textarea>
                         <SubmitLink onClick={(e) => this.handleFormSubmit(e)} disabled={sent} hidden={error}>Submit</SubmitLink>
                         <span className="component-contact__form-error component-contact__form-error--bottom" hidden={!error}>
-                            Oops! Something went wrong.  Please email me @ <a href={data.email.link} target="__blank" rel="noopener noreferrer">{data.email.address}</a>.
+                            Oops! Something went wrong.  Please email me @ <a href={data.email.link}  class="component-link component-link--error" target="__blank" rel="noopener noreferrer">{data.email.address}</a>.
                         </span>
                     </form>
             </section>

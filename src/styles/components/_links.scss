@@ -23,6 +23,15 @@
 		width: 0;
 	}
 
+	&--error{
+		color: $white;
+		font-weight: 700;
+
+		&:after {
+			background-color: $white;
+		}
+	}
+
 	&__resume-link {
 		color: $black;
 		font-weight: 700;
