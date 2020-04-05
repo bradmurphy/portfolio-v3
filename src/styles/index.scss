@@ -2,12 +2,14 @@
 @import 'reset';
 
 // Colors
-$black: #0F1217;
+$black: #000;
+$background: #0F1217;
 $grey: #8F8F8F;
 $orange: #F27124;
 $navy: #070b1b;
 $red: #E63C2F;
-$white: #EDF0F9;
+$white: #FFF;
+$offwhite: #EDF0F9;
 
 // Fonts
 $font: 'Fira Mono', monospace;
@@ -22,7 +24,7 @@ $font: 'Fira Mono', monospace;
 @import 'typography';
 
 body, html {
-	background-color: $black;
+	background-color: $background;
 	color: $black;
 	font-family: $font;
 	font-size: 16px;

@@ -7,11 +7,6 @@
 	text-decoration: none;
 	transition: all .3s ease-in;
 
-	&__resume-link {
-		color: $black;
-		font-weight: 700;
-	}
-
 	&[hidden] {
 		display: none;
 	}
@@ -23,9 +18,18 @@
 		height: 2px;
 		left: 0;
 		position: absolute;
-		top: 25px;
+		top: 23px;
 		transition: width 0.3s ease 0s, left 0.3s ease 0s;
 		width: 0;
+	}
+
+	&__resume-link {
+		color: $black;
+		font-weight: 700;
+
+		&:after {
+			background-color: $black;
+		}
 	}
 
 	&__resume-page {
@@ -52,10 +56,6 @@
 	&--resume {
 		color: $black;
 
-		&:after {
-			top: 27.5px;
-		}
-
 		@media screen and (min-width: 680px) {
 			&:hover {
 				width: 100%;
@@ -75,10 +75,6 @@
 
 	&--resume-link {
 		text-transform: uppercase;
-
-		&:after {
-			top: 30px;
-		}
 	}
 
 	&--submit {
@@ -89,13 +85,9 @@
 			pointer-events: none;
 		}
 
-		&:after {
-			top: 30px;
-		}
-
 		@media screen and (min-width: 680px) {
 			&:hover:after {
-				width: 72px !important;
+				width: 57px !important;
 			}
 		}
 	}

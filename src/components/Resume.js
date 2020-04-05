@@ -14,8 +14,8 @@ const Resume = () => (
                 <span className="typography__copy typography__copy--resume">Brad Murphy</span>
                 <span className="typography__copy typography__copy--resume"><strong>Senior Developer</strong></span>
                 <span className="typography__copy typography__copy--resume">(404) 432 - 3796</span>
-                <a href="/" className="component-link__resume-link typography__copy typography__copy--resume">bradmurphydev.com</a>
-                <a href="mailto:bm.dev84@gmail.com?&amp;subject=BRADMURPHYDEV.COM%20|%20Website%20Inquiry" className="component-link__resume-link typography__copy typography__copy--resume">bm.dev84@gmail.com</a>
+                <a href="/" className="component-link component-link__resume-link typography__copy typography__copy--resume">bradmurphydev.com</a>
+                <a href="mailto:bm.dev84@gmail.com?&amp;subject=BRADMURPHYDEV.COM%20|%20Website%20Inquiry" className="component-link component-link__resume-link typography__copy typography__copy--resume">bm.dev84@gmail.com</a>
                 <span className="typography__copy typography__copy--resume">Woodstock, GA 30188</span>
                 <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="component-link__resume-page">
                     <img src={images.download} alt="Download Resume" />
@@ -27,7 +27,7 @@ const Resume = () => (
                 <h1 className="typography__resume-headline">Experience</h1>
                 <div className="component-resume__job-block">
                     <p className="typography__copy typography__copy--resume"><strong>Senior Developer</strong></p>
-                    <p className="typography__copy typography__copy--resume">Black Airplane (<a href="http://blackairplane.com" target="_blank" rel="noopener noreferrer">blackairplane.com</a>)</p>
+                    <p className="typography__copy typography__copy--resume">Black Airplane (<a href="http://blackairplane.com" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">blackairplane.com</a>)</p>
                     <p className="typography__copy typography__copy--resume"><em>2018 - Present</em></p>
                     <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> Kefi, The Weather Channel, Big Nerd Ranch, Coca-Cola, SeatGeek</p>
                     <ul className="component-resume__skills-list">
@@ -52,7 +52,7 @@ const Resume = () => (
                 </div>
                 <div className="component-resume__job-block">
                     <p className="typography__copy typography__copy--resume"><strong>Instructor</strong></p>
-                    <p className="typography__copy typography__copy--resume">Creative Circus (<a href="http://creativecircus.edu" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
+                    <p className="typography__copy typography__copy--resume">Creative Circus (<a href="http://creativecircus.edu" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
                     <p className="typography__copy typography__copy--resume"><em>2018 - 2019</em></p>
                     <ul className="component-resume__skills-list">
                         <li className="typography__copy typography__copy--resume">
@@ -69,7 +69,7 @@ const Resume = () => (
                 </div>
                 <div className="component-resume__job-block">
                     <p className="typography__copy typography__copy--resume"><strong>Interface Engineer</strong></p>
-                    <p className="typography__copy typography__copy--resume">Hook Studios (<a href="http://byhook.com" target="_blank" rel="noopener noreferrer">byhook.com</a>)</p>
+                    <p className="typography__copy typography__copy--resume">Hook Studios (<a href="http://byhook.com" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">byhook.com</a>)</p>
                     <p className="typography__copy typography__copy--resume"><em>2015 - 2018</em></p>
                     <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> Google, YouTube, Slack, Dropbox</p>
                     <ul className="component-resume__skills-list">
@@ -98,7 +98,7 @@ const Resume = () => (
                 </div>
                 <div className="component-resume__job-block component-resume__job-block--no-margin">
                     <p className="typography__copy typography__copy--resume"><strong>Front End Developer</strong></p>
-                    <p className="typography__copy typography__copy--resume">Artifact Design (<a href="http://artifactdesign.com" target="_blank" rel="noopener noreferrer">artifactdesign.com</a>)</p>
+                    <p className="typography__copy typography__copy--resume">Artifact Design (<a href="http://artifactdesign.com" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">artifactdesign.com</a>)</p>
                     <p className="typography__copy typography__copy--resume"><em>2014 - 2015</em></p>
                     <ul className="component-resume__skills-list">
                         <li className="typography__copy typography__copy--resume">
@@ -112,7 +112,7 @@ const Resume = () => (
                 </div>
                 <h1 className="typography__resume-headline">Education</h1>
                 <div className="component-resume__job-block component-resume__job-block--no-margin">
-                    <p className="typography__copy typography__copy--resume"><strong>The Creative Circus</strong> (<a href="http://creativecircus.edu" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
+                    <p className="typography__copy typography__copy--resume"><strong>The Creative Circus</strong> (<a href="http://creativecircus.edu" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
                     <p className="typography__copy typography__copy--resume">Interactive Development</p>
                     <p className="typography__copy typography__copy--resume"><em>2013 - 2015</em></p>
                     <ul className="component-resume__skills-list">
