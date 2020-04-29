@@ -7,9 +7,16 @@ import { Link } from "./Links";
 const Project = (props) => {
     const { children, date, headline, src, tech, type, url, width } = props;
 
+    const style = {
+        width: `${width}px`,
+        background: headline === 'ILLUMAGEAR' ? '#000' : 'transparent',
+        padding: headline === 'ILLUMAGEAR' ? '1rem' : 0,
+        'box-sizing': 'border-box'
+    };
+
     return (
         <section className="component-project">
-            <a href={url} target="_blank" className="component-project__logo" style={{ width: `${width}px` }} rel="noopener noreferrer">
+            <a href={url} target="_blank" className="component-project__logo" style={style} rel="noopener noreferrer">
                 <img src={src} alt={headline} />
             </a>
             <p className="typography__copy typography__copy--project"><strong>Project:</strong> <Link href={url} target="_blank">{ headline }</Link></p>

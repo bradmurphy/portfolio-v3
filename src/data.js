@@ -10,6 +10,7 @@ import logo from './images/logo.png';
 import logoBA from './images/logo-ba.png';
 import logoGoogle from './images/logo-google.png';
 import logoHook from './images/logo-hook.png';
+import logoIllumagear from './images/logo-illumagear.png';
 import logoNetflix from './images/logo-netflix.png';
 import logoKefi from './images/logo-kefi.png';
 import logoSG from './images/logo-sg.png';
@@ -28,6 +29,7 @@ const images = {
     logoBA,
     logoGoogle,
     logoHook,
+    logoIllumagear,
     logoKefi,
     logoSG,
     logoYouTube
@@ -49,6 +51,22 @@ const data = {
         title: 'Interface Engineer'
     },
     projects: [
+        {
+            logo: logoIllumagear,
+            width: 285,
+            headline: 'ILLUMAGEAR',
+            type: 'Website',
+            url: 'http://illumagear.com',
+            date: 'March 2020',
+            copy: `Active Safety and Task Lighting Solutions.`,
+            technology: [
+                'HTML5',
+                'CSS3',
+                'JavaScript',
+                'Wordpress',
+                'VueJS'
+            ]
+        },
         {
             logo: logoNetflix,
             width: 185,
@@ -95,7 +113,7 @@ const data = {
                 'PHP',
                 'Wordpress',
                 'Laravel',
-                'Vue',
+                'VueJS',
                 'React Native',
                 'Square'
             ]
@@ -111,8 +129,7 @@ const data = {
             technology: [
                 'HTML5',
                 'CSS3',
-                'JavaScript',
-                'AMP'
+                'JavaScript'
             ]
         },
         {
