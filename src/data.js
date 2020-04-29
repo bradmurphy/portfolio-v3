@@ -53,7 +53,7 @@ const data = {
     projects: [
         {
             logo: logoIllumagear,
-            width: 285,
+            width: 280,
             headline: 'ILLUMAGEAR',
             type: 'Website',
             url: 'http://illumagear.com',
