@@ -70,12 +70,12 @@
 		}
 	}
 
-	&--black-airplane {
-		color: $red;
+	&--dms {
+		color: $teal;
 
 		@media screen and (min-width: 680px) {
 			&:after {
-				background-color: $red;
+				background-color: $teal;
 			}
 		}
 	}

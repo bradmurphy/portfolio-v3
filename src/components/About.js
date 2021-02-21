@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // components
-import { BlackAirplaneLink } from "./Links";
+import { DMSLink } from "./Links";
 
 const About = (props) => (
     <section className="component-about">
@@ -15,11 +15,11 @@ const About = (props) => (
             I always find writing about myself to be a rather difficult task. However -- this is my portfolio, so I suppose
             I should say a few things.
         </p>
-        <a href={props.data.ba.link} target="_blank" rel="noopener noreferrer" className="component-about__ba-logo">
-            <img src={props.data.ba.src} alt={props.data.ba.alt} />
+        <a href={props.data.work.link} target="_blank" rel="noopener noreferrer" className="component-about__ba-logo">
+            <img src={props.data.work.src} alt={props.data.work.alt} />
         </a>
         <p className="typography__copy typography__copy--light">
-            I currently reside in Woodstock, Georgia and work for <BlackAirplaneLink href={props.data.ba.link}>Black Airplane</BlackAirplaneLink> with an amazing group of extremely talented people.
+            I currently reside in Woodstock, Georgia and work for <DMSLink href={props.data.work.link}>{props.data.work.alt}</DMSLink> with an amazing group of extremely talented people.
         </p>
         <p className="typography__copy typography__copy--light">
             Aside from programming, I tend to spend my time either playing a never ending list of video game titles or hanging out

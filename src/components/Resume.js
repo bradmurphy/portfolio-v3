@@ -27,8 +27,31 @@ const Resume = () => (
                 <h1 className="typography__resume-headline">Experience</h1>
                 <div className="component-resume__job-block">
                     <p className="typography__copy typography__copy--resume"><strong>Senior Developer</strong></p>
+                    <p className="typography__copy typography__copy--resume">Dynamic Marketing Systems (<a href="http://discoverdms.com" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">discoverdms.com</a>)</p>
+                    <p className="typography__copy typography__copy--resume"><em>2021 - Present</em></p>
+                    <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> American Airlines, CITI, AT&amp;T, Barclays</p>
+                    <ul className="component-resume__skills-list">
+                        <li className="typography__copy typography__copy--resume">
+                            Create, develop and deliver clear, functional, well-tested code.
+                        </li>
+                        <li className="typography__copy typography__copy--resume">
+                            Consistently learn and adapt to any new emerging technologies.
+                        </li>
+                        <li className="typography__copy typography__copy--resume">
+                            Provide designers and account managers with development expertise and assist with UX Design.
+                        </li>
+                        <li className="typography__copy typography__copy--resume">
+                            Create and manage development best practices for code style, frameworks, build tools and any other development practices.
+                        </li>
+                        <li className="typography__copy typography__copy--resume">
+                            <strong>Skills/Technologies Utilized:</strong> JavaScript, HTML5, CSS3, PHP, NodeJS, Webpack, ReactJS, React Native, WordPress, MJML
+                        </li>
+                    </ul>
+                </div>
+                <div className="component-resume__job-block">
+                    <p className="typography__copy typography__copy--resume"><strong>Senior Developer</strong></p>
                     <p className="typography__copy typography__copy--resume">Black Airplane (<a href="http://blackairplane.com" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">blackairplane.com</a>)</p>
-                    <p className="typography__copy typography__copy--resume"><em>2018 - Present</em></p>
+                    <p className="typography__copy typography__copy--resume"><em>2018 - 2021</em></p>
                     <p className="typography__copy typography__copy--resume"><strong>Clients:</strong> Kefi, The Weather Channel, Big Nerd Ranch, Coca-Cola, SeatGeek</p>
                     <ul className="component-resume__skills-list">
                         <li className="typography__copy typography__copy--resume">
@@ -53,7 +76,7 @@ const Resume = () => (
                 <div className="component-resume__job-block">
                     <p className="typography__copy typography__copy--resume"><strong>Instructor</strong></p>
                     <p className="typography__copy typography__copy--resume">Creative Circus (<a href="http://creativecircus.edu" className="component-link component-link__resume-link" target="_blank" rel="noopener noreferrer">creativecircus.edu</a>)</p>
-                    <p className="typography__copy typography__copy--resume"><em>2018 - 2019</em></p>
+                    <p className="typography__copy typography__copy--resume"><em>2018 - Present</em></p>
                     <ul className="component-resume__skills-list">
                         <li className="typography__copy typography__copy--resume">
                             Teach incoming students an assortment of subjects including: ReactJS, Web

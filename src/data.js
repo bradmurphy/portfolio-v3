@@ -8,6 +8,7 @@ import instagram from './images/instagram.png';
 import linkedIn from './images/linkedin.png';
 import logo from './images/logo.png';
 import logoBA from './images/logo-ba.png';
+import logoDMS from './images/logo-dms.png';
 import logoGoogle from './images/logo-google.png';
 import logoHook from './images/logo-hook.png';
 import logoIllumagear from './images/logo-illumagear.png';
@@ -27,6 +28,7 @@ const images = {
     linkedIn,
     logo,
     logoBA,
+    logoDMS,
     logoGoogle,
     logoHook,
     logoIllumagear,
@@ -38,10 +40,10 @@ const images = {
 const data = {
     about: {
         avatar: avatar,
-        ba: {
-            alt: 'Black Airplane',
-            link: 'https://blackairplane.com/',
-            src: logoBA
+        work: {
+            alt: 'Dynamic Marketing Systems',
+            link: 'https://discoverdms.com/',
+            src: logoDMS
         },
         logo: {
             alt: 'Brad Murphy Logo',
@@ -51,22 +53,22 @@ const data = {
         title: 'Interface Engineer'
     },
     projects: [
-        {
-            logo: logoIllumagear,
-            width: 280,
-            headline: 'ILLUMAGEAR',
-            type: 'Website',
-            url: 'http://illumagear.com',
-            date: 'March 2020',
-            copy: `Active Safety and Task Lighting Solutions.`,
-            technology: [
-                'HTML5',
-                'CSS3',
-                'JavaScript',
-                'Wordpress',
-                'VueJS'
-            ]
-        },
+        // {
+        //     logo: logoIllumagear,
+        //     width: 280,
+        //     headline: 'ILLUMAGEAR',
+        //     type: 'Website',
+        //     url: 'http://illumagear.com',
+        //     date: 'March 2020',
+        //     copy: `Active Safety and Task Lighting Solutions.`,
+        //     technology: [
+        //         'HTML5',
+        //         'CSS3',
+        //         'JavaScript',
+        //         'Wordpress',
+        //         'VueJS'
+        //     ]
+        // },
         {
             logo: logoNetflix,
             width: 185,
