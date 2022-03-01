@@ -33,7 +33,7 @@ const Resume = () => (
           bm.dev84@gmail.com
         </a>
         <span className="typography__copy typography__copy--resume">
-          Woodstock, GA 30188
+          Canton GA 30114
         </span>
         <a
           href="/resume.pdf"
