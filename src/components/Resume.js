@@ -56,6 +56,47 @@ const Resume = () => (
         <h1 className="typography__resume-headline">Experience</h1>
         <div className="component-resume__job-block">
           <p className="typography__copy typography__copy--resume">
+            <strong>UX Engineer</strong>
+          </p>
+          <p className="typography__copy typography__copy--resume">
+            Blinkk (
+            <a
+              href="https://blinkk.com"
+              className="component-link component-link__resume-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              blinkk.com
+            </a>
+            )
+          </p>
+          <p className="typography__copy typography__copy--resume">
+            <em>2021 - Present</em>
+          </p>
+          <p className="typography__copy typography__copy--resume">
+            <strong>Clients:</strong> Google, Teachable
+          </p>
+          <ul className="component-resume__skills-list">
+            <li className="typography__copy typography__copy--resume">
+              Develop and maintain automation solutions for open source build
+              systems and plugins.
+            </li>
+            <li className="typography__copy typography__copy--resume">
+              Build, maintain and deploy interactive websites and applications
+              to creative and client specifications.
+            </li>
+            <li className="typography__copy typography__copy--resume">
+              Executing the standard of maintainability, interactivity,
+              accessibility, localization and performance.
+            </li>
+            <li className="typography__copy typography__copy--resume">
+              <strong>Skills/Technologies Utilized:</strong> JavaScript, HTML5,
+              CSS3, NodeJS, ReactJS, WordPress, Kintaro
+            </li>
+          </ul>
+        </div>
+        <div className="component-resume__job-block">
+          <p className="typography__copy typography__copy--resume">
             <strong>Senior Developer</strong>
           </p>
           <p className="typography__copy typography__copy--resume">
@@ -71,7 +112,7 @@ const Resume = () => (
             )
           </p>
           <p className="typography__copy typography__copy--resume">
-            <em>2021 - Present</em>
+            <em>2021 - 2021t</em>
           </p>
           <p className="typography__copy typography__copy--resume">
             <strong>Clients:</strong> American Airlines, CITI, AT&amp;T,
