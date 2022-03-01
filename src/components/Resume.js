@@ -15,7 +15,7 @@ const Resume = () => (
           Brad Murphy
         </span>
         <span className="typography__copy typography__copy--resume">
-          <strong>Senior Developer</strong>
+          <strong>UX Engineer</strong>
         </span>
         <span className="typography__copy typography__copy--resume">
           (404) 432 - 3796
