@@ -13,9 +13,9 @@ const BaseLink = (props) => {
     let linkContent = null;
 
     switch(mode) {
-        case 'dms':
+        case 'blinkk':
             linkContent = (
-                <a href={href} target="_blank" rel="noopener noreferrer" className="component-link component-link--dms">
+                <a href={href} target="_blank" rel="noopener noreferrer" className="component-link component-link--blinkk">
                     {children}
                 </a>
             );
@@ -55,7 +55,7 @@ BaseLink.propTypes = {
     target: PropTypes.string
 };
 
-export const DMSLink = (props) => ( <BaseLink {...props} mode="dms" /> );
+export const BlinkkLink = (props) => ( <BaseLink {...props} mode="blinkk" /> );
 export const Link = (props) => ( <BaseLink {...props} /> );
 export const ResumeLink = (props) => ( <BaseLink {...props} mode="resume" /> );
 export const SubmitLink = (props) => ( <BaseLink {...props} mode="submit" /> );

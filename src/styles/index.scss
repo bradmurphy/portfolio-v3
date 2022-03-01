@@ -11,6 +11,7 @@ $red: #E63C2F;
 $white: #FFF;
 $offwhite: #EDF0F9;
 $teal: #00a2e8;
+$brown: #a3463d;
 
 // Fonts
 $font: 'Fira Mono', monospace;
@@ -25,24 +26,21 @@ $font: 'Fira Mono', monospace;
 @import 'typography';
 
 body, html {
-	background-color: $background;
+	background-color: rgba($background, .8);
 	color: $black;
 	font-family: $font;
 	font-size: 16px;
 	line-height: 24px;
-	height: 100%;
 	width: 100%;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 
 	#root {
-		height: 100%;
 		width: 100%;
 	}
 }
 
 .component-app {
-	height: 100%;
 	width: 100%;
 }
 
