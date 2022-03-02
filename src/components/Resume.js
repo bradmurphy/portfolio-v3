@@ -33,7 +33,7 @@ const Resume = () => (
           bm.dev84@gmail.com
         </a>
         <span className="typography__copy typography__copy--resume">
-          Canton GA 30114
+          Canton, GA 30114
         </span>
         <a
           href="/resume.pdf"
@@ -112,7 +112,7 @@ const Resume = () => (
             )
           </p>
           <p className="typography__copy typography__copy--resume">
-            <em>2021 - 2021t</em>
+            <em>2021 - 2021</em>
           </p>
           <p className="typography__copy typography__copy--resume">
             <strong>Clients:</strong> American Airlines, CITI, AT&amp;T,

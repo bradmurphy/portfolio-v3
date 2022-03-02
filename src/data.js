@@ -12,6 +12,7 @@ import logoGoogle from './images/logo-google.png';
 import logoHook from './images/logo-hook.png';
 import logoNetflix from './images/logo-netflix.png';
 import logoSG from './images/logo-sg.png';
+import logoTeachable from './images/logo-teachable.svg';
 // import logoYouTube from './images/logo-youtube.png';
 
 const images = {
@@ -28,6 +29,7 @@ const images = {
   logoGoogle,
   logoHook,
   logoSG,
+  logoTeachable,
   // logoYouTube
 };
 
@@ -55,7 +57,17 @@ const data = {
       url: 'https://mapsplatform.google.com/',
       date: 'October 2021',
       copy: `Create real world and real time experiences for your customers with dynamic maps, routes &amp; places APIs from Google Maps Platform’s location solutions.`,
-      technology: ['HTML5', 'CSS3', 'Typescript', 'Nunjucks', 'SASS'],
+      technology: ['HTML5', 'Nunjucks', 'CSS3', 'SASS', 'TypeScript'],
+    },
+    {
+      logo: logoTeachable,
+      width: 194,
+      headline: 'Teachable Blog',
+      type: 'Website',
+      url: 'https://teachable.com/blog',
+      date: 'April 2021',
+      copy: `Read the latest Teachable blog posts on marketing tips, interviews, money news, online course info, and more for entrepreneurs and creators.`,
+      technology: ['HTML5', 'CSS3', 'SCSS', 'JavaScript', 'WordPress', 'PHP'],
     },
     {
       logo: logoNetflix,
@@ -65,7 +77,7 @@ const data = {
       url: 'http://fh.bradmurphydev.com/',
       date: 'February 2020',
       copy: `Create and share your own Fuller House family logo with FullerMyHouse.`,
-      technology: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS'],
+      technology: ['HTML5', 'CSS3', 'SCSS', 'JavaScript', 'React'],
     },
     {
       logo: logoSG,
@@ -75,7 +87,7 @@ const data = {
       url: 'http://sabrinagirvan.com',
       date: 'August 2019',
       copy: `Inspiring people to live healthy & happy every day.`,
-      technology: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'ReactJS'],
+      technology: ['HTML5', 'CSS3', 'SCSS', 'JavaScript', 'React', 'PHP'],
     },
     {
       logo: logoHook,
@@ -85,7 +97,7 @@ const data = {
       url: 'http://hookerz.github.io/stitches',
       date: 'March 2016',
       copy: `A Web App for quickly creating sprite sheets.`,
-      technology: ['HTML5', 'CSS3', 'JavaScript', 'Polymer', 'GSAP'],
+      technology: ['HTML5', 'CSS3', 'SCSS', 'JavaScript', 'Polymer', 'GSAP'],
     },
   ],
   contact: {
