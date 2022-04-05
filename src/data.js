@@ -108,16 +108,6 @@ const data = {
     },
     social: [
       {
-        link: 'https://www.instagram.com/wyck13/',
-        logo: instagram,
-        alt: 'Instagram',
-      },
-      {
-        link: 'https://codepen.io/bradmurphy',
-        logo: codepen,
-        alt: 'Codepen',
-      },
-      {
         link: 'https://github.com/bradmurphy',
         logo: github,
         alt: 'GitHub',
