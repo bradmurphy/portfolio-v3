@@ -78,20 +78,25 @@ const Resume = () => (
           </p>
           <ul className="component-resume__skills-list">
             <li className="typography__copy typography__copy--resume">
-              Develop and maintain automation solutions for open source build
-              systems and plugins.
+              Develop and maintain automation solutions for open source build systems and plugins.
             </li>
             <li className="typography__copy typography__copy--resume">
-              Build, maintain and deploy interactive websites and applications
-              to creative and client specifications.
+              Integrate current internal tool sets and build systems with NextJS/ReactJS.
             </li>
             <li className="typography__copy typography__copy--resume">
-              Executing the standard of maintainability, interactivity,
-              accessibility, localization and performance.
+              Refactor and configure current CMS hierarchy to be more maintainable for the client; configuring related logic for the front end.
             </li>
             <li className="typography__copy typography__copy--resume">
-              <strong>Skills/Technologies Utilized:</strong> JavaScript, HTML5,
-              CSS3, NodeJS, ReactJS, WordPress, Kintaro
+              Build, maintain and deploy interactive websites and applications to creative and client specifications.
+            </li>
+            <li className="typography__copy typography__copy--resume">
+              Develop learning presentations for team-wide education.
+            </li>
+            <li className="typography__copy typography__copy--resume">
+              Assist with code reviews, mentoring and onboarding new engineers to new and existing projects.
+            </li>
+            <li className="typography__copy typography__copy--resume">
+              Executing the standard of maintainability, interactivity, accessibility, localization and performance throughout every project.
             </li>
           </ul>
         </div>
