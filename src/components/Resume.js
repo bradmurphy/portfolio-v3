@@ -98,6 +98,9 @@ const Resume = () => (
             <li className="typography__copy typography__copy--resume">
               Executing the standard of maintainability, interactivity, accessibility, localization and performance throughout every project.
             </li>
+            <li className="typography__copy typography__copy--resume">
+              <strong>Skills/Technologies Utilized:</strong> JavaScript, Typescript, HTML5, CSS3, NodeJS, NextJS, ReactJS, WordPress, Kintaro, YAML, SASS, GCP
+            </li>
           </ul>
         </div>
         <div className="component-resume__job-block">
@@ -327,7 +330,7 @@ const Resume = () => (
             </li>
             <li className="typography__copy typography__copy--resume">
               <strong>Skills/Technologies Utilized:</strong> JavaScript, HTML5,
-              CSS3, Angular, Backbone, React, React Native, Polymer, AEM, AMP,
+              CSS3, Angular, Backbone, React, React Native, Polymer, AEM, AMP, GCP,
               Node, Gulp, Glue, Goro, Kintaro, Closure, Bracket, GSAP, ES6
             </li>
           </ul>
